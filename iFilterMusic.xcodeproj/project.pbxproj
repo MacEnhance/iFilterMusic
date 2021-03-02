@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB4D15E125EA359F008F9164 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4D15E025EA359F008F9164 /* AppDelegate.m */; };
+		FB4D15E325EA35A0008F9164 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB4D15E225EA35A0008F9164 /* Assets.xcassets */; };
+		FB4D15E625EA35A0008F9164 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB4D15E425EA35A0008F9164 /* MainMenu.xib */; };
+		FB4D15E925EA35A0008F9164 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4D15E825EA35A0008F9164 /* main.m */; };
+		FB4D15F725EA35CD008F9164 /* AXValueWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4D15F325EA35CD008F9164 /* AXValueWrapper.m */; };
+		FB4D15F825EA35CD008F9164 /* AXUIElementWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4D15F425EA35CD008F9164 /* AXUIElementWrapper.m */; };
+		FB4D15F925EA35CD008F9164 /* NSAttributedString+Accessibility.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4D15F625EA35CD008F9164 /* NSAttributedString+Accessibility.m */; };
+		FB4D160A25EADED9008F9164 /* ico.icns in Resources */ = {isa = PBXBuildFile; fileRef = FB4D160925EADED9008F9164 /* ico.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FB4D15DC25EA359F008F9164 /* iFilterMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iFilterMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB4D15DF25EA359F008F9164 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FB4D15E025EA359F008F9164 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FB4D15E225EA35A0008F9164 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB4D15E525EA35A0008F9164 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		FB4D15E725EA35A0008F9164 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB4D15E825EA35A0008F9164 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FB4D15EA25EA35A0008F9164 /* iFilterMusic.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iFilterMusic.entitlements; sourceTree = "<group>"; };
+		FB4D15F125EA35CC008F9164 /* AXUIElementWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXUIElementWrapper.h; sourceTree = "<group>"; };
+		FB4D15F225EA35CC008F9164 /* AXValueWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXValueWrapper.h; sourceTree = "<group>"; };
+		FB4D15F325EA35CD008F9164 /* AXValueWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXValueWrapper.m; sourceTree = "<group>"; };
+		FB4D15F425EA35CD008F9164 /* AXUIElementWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXUIElementWrapper.m; sourceTree = "<group>"; };
+		FB4D15F525EA35CD008F9164 /* NSAttributedString+Accessibility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+Accessibility.h"; sourceTree = "<group>"; };
+		FB4D15F625EA35CD008F9164 /* NSAttributedString+Accessibility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+Accessibility.m"; sourceTree = "<group>"; };
+		FB4D160925EADED9008F9164 /* ico.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = ico.icns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB4D15D925EA359F008F9164 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB4D15D325EA359F008F9164 = {
+			isa = PBXGroup;
+			children = (
+				FB4D15DE25EA359F008F9164 /* iFilterMusic */,
+				FB4D15DD25EA359F008F9164 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB4D15DD25EA359F008F9164 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB4D15DC25EA359F008F9164 /* iFilterMusic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB4D15DE25EA359F008F9164 /* iFilterMusic */ = {
+			isa = PBXGroup;
+			children = (
+				FB4D15FB25EA35D1008F9164 /* AXUI */,
+				FB4D15DF25EA359F008F9164 /* AppDelegate.h */,
+				FB4D15E025EA359F008F9164 /* AppDelegate.m */,
+				FB4D15E225EA35A0008F9164 /* Assets.xcassets */,
+				FB4D15E425EA35A0008F9164 /* MainMenu.xib */,
+				FB4D15E725EA35A0008F9164 /* Info.plist */,
+				FB4D160925EADED9008F9164 /* ico.icns */,
+				FB4D15E825EA35A0008F9164 /* main.m */,
+				FB4D15EA25EA35A0008F9164 /* iFilterMusic.entitlements */,
+			);
+			path = iFilterMusic;
+			sourceTree = "<group>";
+		};
+		FB4D15FB25EA35D1008F9164 /* AXUI */ = {
+			isa = PBXGroup;
+			children = (
+				FB4D15F125EA35CC008F9164 /* AXUIElementWrapper.h */,
+				FB4D15F425EA35CD008F9164 /* AXUIElementWrapper.m */,
+				FB4D15F225EA35CC008F9164 /* AXValueWrapper.h */,
+				FB4D15F325EA35CD008F9164 /* AXValueWrapper.m */,
+				FB4D15F525EA35CD008F9164 /* NSAttributedString+Accessibility.h */,
+				FB4D15F625EA35CD008F9164 /* NSAttributedString+Accessibility.m */,
+			);
+			path = AXUI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB4D15DB25EA359F008F9164 /* iFilterMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB4D15ED25EA35A0008F9164 /* Build configuration list for PBXNativeTarget "iFilterMusic" */;
+			buildPhases = (
+				FB4D15D825EA359F008F9164 /* Sources */,
+				FB4D15D925EA359F008F9164 /* Frameworks */,
+				FB4D15DA25EA359F008F9164 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iFilterMusic;
+			productName = FilterX;
+			productReference = FB4D15DC25EA359F008F9164 /* iFilterMusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB4D15D425EA359F008F9164 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					FB4D15DB25EA359F008F9164 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = FB4D15D725EA359F008F9164 /* Build configuration list for PBXProject "iFilterMusic" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB4D15D325EA359F008F9164;
+			productRefGroup = FB4D15DD25EA359F008F9164 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB4D15DB25EA359F008F9164 /* iFilterMusic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB4D15DA25EA359F008F9164 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB4D15E325EA35A0008F9164 /* Assets.xcassets in Resources */,
+				FB4D15E625EA35A0008F9164 /* MainMenu.xib in Resources */,
+				FB4D160A25EADED9008F9164 /* ico.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB4D15D825EA359F008F9164 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB4D15E925EA35A0008F9164 /* main.m in Sources */,
+				FB4D15F825EA35CD008F9164 /* AXUIElementWrapper.m in Sources */,
+				FB4D15E125EA359F008F9164 /* AppDelegate.m in Sources */,
+				FB4D15F725EA35CD008F9164 /* AXValueWrapper.m in Sources */,
+				FB4D15F925EA35CD008F9164 /* NSAttributedString+Accessibility.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FB4D15E425EA35A0008F9164 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB4D15E525EA35A0008F9164 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB4D15EB25EA35A0008F9164 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FB4D15EC25EA35A0008F9164 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FB4D15EE25EA35A0008F9164 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = iFilterMusic/iFilterMusic.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = EX596BNL45;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = iFilterMusic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.macenhance.iFilterMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FB4D15EF25EA35A0008F9164 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = iFilterMusic/iFilterMusic.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = EX596BNL45;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = iFilterMusic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.macenhance.iFilterMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB4D15D725EA359F008F9164 /* Build configuration list for PBXProject "iFilterMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB4D15EB25EA35A0008F9164 /* Debug */,
+				FB4D15EC25EA35A0008F9164 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB4D15ED25EA35A0008F9164 /* Build configuration list for PBXNativeTarget "iFilterMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB4D15EE25EA35A0008F9164 /* Debug */,
+				FB4D15EF25EA35A0008F9164 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB4D15D425EA359F008F9164 /* Project object */;
+}
